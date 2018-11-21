@@ -1,0 +1,193 @@
+body {
+ text-align: center;
+ background position: center;
+ margin: 0px;
+ background-color: rgba(255,255,255,1);
+ font-family: 'Shadows Into Light', cursive;
+
+
+}
+
+#portfolio {
+ background: url('../images/gold.jpg');
+ background-size: cover;
+ background-position: center;
+ color: black;
+ height: 770px;
+ margin: 0px;
+ text-align: center;
+ background-repeat: no-repeat;
+}
+
+ul {
+ background: rgba(1,1,1,0.9);
+ font-family: 'Shadows Into Light', cursive;
+ font-size: 25px;
+ font-weight: bold;
+ padding: 10px;
+ position: fixed;
+ text-align: center;
+ width: 100%;
+ margin: 0px;
+}
+
+a {
+ color: rgba(255,255,255,1);
+ text-decoration: none;
+ text-align: center;
+}
+
+li {
+ display: inline;
+ padding: 10px 50px 10px 50px;
+ margin: 20px auto;
+ text-align: center;
+}
+
+.underline {
+ text-decoration: underline;
+}
+
+h1 {
+ font-size: 72px;
+ margin-top: 10px;
+}
+
+h2 {
+ text-align: center;
+ font-size: 30px;
+}
+
+.paddingtop {
+ padding-top: 30px;
+}
+
+p {
+ font-size: 25px;
+ padding-top: 60px;
+}
+
+.padding {
+ padding: 15px 110px 20px 110px;
+ font-size: 19px;
+}
+
+.aboutus {
+ background-color: rgba(8,1,1,0.37);
+ width: 300px;
+ height: 500px;
+ position: absolute;
+ left: 50%;
+ color: rgba(255,255,255,1);
+ text-align: center;
+ margin: 130px 0px 0px -150px;
+}
+
+
+
+
+* {
+   box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  background: url('../images/goldearrings.jpg');
+  background-size: cover;
+   float: left;
+   width: 50%;
+   height: 450px;
+}
+
+.column2 {
+  background-color: rgba(1,1,1,1);
+   float: left;
+   width: 50%;
+   height: 450px;
+   color: white;
+}
+
+.column3 {
+  background-color: rgba(1,1,1,1);
+   float: left;
+   width: 50%;
+   height: 450px;
+   color: white;
+}
+
+.column4 {
+   background: url('../images/goldbangles4.jpg');
+   background-size: cover;
+   float: left;
+   width: 50%;
+   height: 450px;
+}
+
+.column5 {
+  background: url('../images/goldbangles.jpg');
+  background-size: cover;
+   float: left;
+   width: 50%;
+   height: 450px;
+}
+
+.column6 {
+  background-color: rgba(1,1,1,1);
+   float: left;
+   width: 50%;
+   height: 450px;
+   color: white;
+}
+
+.column7 {
+   background-color: rgba(218,165,32,1);
+   float: left;
+   width: 50%;
+   height: 450px;
+   color: black;
+   padding-top: 60px;
+
+}
+
+.column8 {
+   background: url('../images/goldbangles2.jpg');
+   background-size: cover;
+   float: left;
+   width: 50%;
+   height: 450px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+
+@media screen and (max-width: 1200px) {
+   .column1 {
+       width: 100%;
+   }
+   .column2 {
+       width: 100%;
+   }
+   .column3 {
+       width: 100%;
+   }
+   .column4 {
+       width: 100%;
+   }
+   .column5 {
+       width: 100%;
+   }
+   .column6 {
+       width: 100%;
+   }
+   .column7 {
+       width: 100%;
+   }
+   .column8 {
+       width: 100%;
+   }
+}
