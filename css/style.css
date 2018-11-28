@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(255,255,240);
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 ul {
@@ -10,7 +11,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(222,184,135);
-    font-family: verdana;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 17px;
 }
 
 li {
@@ -36,7 +38,7 @@ li a {
  background-size: cover;
  background-position: center;
  color: black;
- height: 770px;
+ height: 700px;
  margin: 0px;
  text-align: center;
  background-repeat: no-repeat;
@@ -44,30 +46,46 @@ li a {
 
 .aboutus {
  background-color: rgba(8,1,1,0.37);
- width: 300px;
+ width: 500px;
  height: 500px;
  position: absolute;
  left: 50%;
  color: rgba(255,255,255,1);
  text-align: center;
- margin: 130px 0px 0px -150px;
+ margin: 100px 0px 0px -250px;
 }
-p {
-  padding: 10px 70px 70px 70px;;
+
+h1 {
+  padding: 130px 70px 10px 70px;
   margin: 25px;
+}
+
+p {
+  padding: 10px 100px 40px 100px;;
+  margin: 25px;
+  text-align: center;
 }
 
 h2 {
-  padding: 70px 70px 10px 70px;
+  padding: 40px 80px 10px 80px;
   margin: 25px;
+  text-align: center;
+  font-family: "Lucida Console", monospace;
+  font-size: 40px;
 }
 
 .banner {
-  background-color: black;
+  background-color: #523825;
   width: 100%;
-  height:170px;
+  height: 300px;
   padding: 0;
   margin: 0;
+}
+
+.bottompg {
+  padding-top: 50px;
+  margin: 0;
+  color: rgb(255,255,240);
 }
 
 * {
@@ -124,22 +142,22 @@ h2 {
 }
 
 .column7 {
-   background: brown;
+   background: rgb(205,133,63);
    background-size: cover;
    float: left;
    width: 50%;
-   height: 460px;
+   height: 500px;
    color: white;
    padding-top: 60px;
 
 }
 
 .column8 {
-   background: url('../images/.jpg');
+   background: url('../images/oreos.jpg');
    background-size: cover;
    float: left;
    width: 50%;
-   height: 460px;
+   height: 500px;
 }
 
 /* Clear floats after the columns */
