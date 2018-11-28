@@ -56,8 +56,11 @@ li a {
 }
 
 h1 {
-  padding: 130px 70px 10px 70px;
+  padding: 30px;
   margin: 25px;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Lucida Console", monospace;
 }
 
 p {
@@ -74,6 +77,29 @@ h2 {
   font-size: 40px;
 }
 
+.centre {
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color: #523825;
+  border: none;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .banner {
   background-color: #523825;
   width: 100%;
@@ -87,6 +113,8 @@ h2 {
   margin: 0;
   color: rgb(255,255,240);
 }
+
+
 
 * {
    box-sizing: border-box;
