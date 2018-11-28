@@ -3,7 +3,6 @@
 <head>
 
   <link rel="stylesheet" type"text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
 </head>
 
@@ -14,63 +13,62 @@
   <li style="float:right"><a href="about.html">About Us</a></li>
 </ul>
 
+<header id="portfolio">
+
+  <div class="aboutus">
+
+    <h1>Shop</h1>
+    <p>We have conducted a vast variety of projects over the past 10 years, ranging from penthouses and mansions, to restaurants and yachts.</p>
+
+  </div>
+
+</header>
+
 <body>
 
 
-  <h2>Automatic Slideshow</h2>
-  <p>Change image every 2 seconds:</p>
+  <div class="row">
+    <div class="column1">
+    </div>
+    <div class="column2">
+      <h2 class="paddingtop">Apartment,<br> Knightsbridge</h2>
+      <p class="padding">This Knightsbridge apartment runs adjacent to Sloane Street and is characterised by its stately terraces and column-bound entranceways. The apartment is a thoughtful balance of bold textures, modern artwork and furnishings, and a softer side of contemporary architecture.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column3">
+      <h2 class="paddingtop">Penthouse Apartment, <br> Belgravia</h2>
+      <p class="padding">Penthouse Apartment, Belgravia is a fusion of heritage exteriors and contemporary interiors, creating an open, warm, and grandiose space. The rich colour palette, comforting details and furnishings formulate a modern and yet timeless design.</p>
+    </div>
+    <div class="column4">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column5">
+    </div>
+    <div class="column6">
+      <h2 class="paddingtop">Family House, <br>Melbourne</h2>
+      <p class="padding">“Family House” in Melbourne, Australia, is synonymous with its surroundings, but its design and interiors exude a blend of Australia’s open-air living with the all the comfort of a quintessentially British home. This new-build property is a house that purposefully serves as a home away from ‘home’.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column7">
+      <h2 class="paddingtop">Enquire</h2>
+      <p class="padding">If you would like to discuss a future project, or learn more about the services Murrays Design Studio provides, please contact us on: <br>
+      enquiries@kassjewellery.com</p>
+    </div>
+    <div class="column8">
+    </div>
+  </div>
 
 
-<div class="slideshow-container">
+  <div class="banner">
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="img_nature_wide.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
+  
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="img_snow_wide.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
+    </div>
 
 </body>
