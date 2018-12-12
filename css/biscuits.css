@@ -117,7 +117,7 @@ body {
   margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
-  background: url('../images/wagonbis.jpg');
+  background: url('../images/fingerbis.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -127,7 +127,7 @@ body {
   margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
-  background: url('../images/waferbis.jpg');
+  background: url('../images/chipbis.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -137,37 +137,7 @@ body {
   margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
-  background: url('../images/richteabis.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.column-left3 {
-  display: inline-block;
-  margin: 0px 30px 30px 30px;
-  width: 250px;
-  height: 250px;
-  background: url('../images/figrollbis.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.column-center3 {
-  display: inline-block;
-  margin: 0px 30px 30px 0px;
-  width: 250px;
-  height: 250px;
-  background: url('../images/fingerbis.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.column-right3 {
-  display: inline-block;
-  margin: 0px 30px 30px 0px;
-  width: 250px;
-  height: 250px;
-  background: url('../images/chipbis.jpg');
+  background: url('../images/party.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -193,6 +163,13 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
+}
+
+.containerlast {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
 }
 
 

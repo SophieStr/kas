@@ -98,6 +98,7 @@ input[type=submit]:hover {
 }
 
 
+
 .banner {
   background-color: #523825;
   width: 100%;
@@ -155,8 +156,10 @@ input[type=submit]:hover {
   color: white;
 }
 
+
 @media screen and (max-width: 600px) {
 .container {
     padding: 20px 30px 20px 30px;
     margin: 100px 30px 100px 30px;
+}
 }
