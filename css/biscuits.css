@@ -160,8 +160,6 @@ a:hover {
 
 .containertop {
   text-align: center;
-  padding-left: 70px;
-  padding-right: 70px;
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -223,4 +221,11 @@ a:hover {
 .fa-facebook {
   background: #3B5998;
   color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  .containertop {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }
