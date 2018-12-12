@@ -153,7 +153,7 @@ a:hover {
 }
 
 .column2 {
-  background-color: rgb(245,45,52);
+  background-color: rgb(153, 255, 204);
    float: left;
    width: 40%;
    height: 460px;
@@ -161,7 +161,7 @@ a:hover {
 }
 
 .column3 {
-  background-color: rgb(43,98,250);
+  background-color: rgb(204, 255, 255);
    float: left;
    width: 40%;
    height: 460px;
@@ -185,7 +185,7 @@ a:hover {
 }
 
 .column6 {
-   background-color: rgb(245,198,45);
+   background-color: rgb(255, 230, 255);
    float: left;
    width: 40%;
    height: 460px;
