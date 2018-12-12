@@ -160,18 +160,11 @@ a:hover {
 
 .containertop {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 70px;
+  margin-right: 70px;
   padding-top: 100px;
-}
-
-.containerlast {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   padding-bottom: 50px;
 }
-
 
 .banner {
   background-color: #523825;
