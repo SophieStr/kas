@@ -6,12 +6,10 @@ body {
   text-align: center;
 }
 
-
-
 .navbar-nav {
   z-index: 1;
   position: fixed;
-  background-color: rgba(222,184,135,0.6);
+  background-color: rgba(222,184,135,0.9);
   font-family: "Trebuchet MS", sans-serif;
   font-size: 25px;
   font-size: 17px;
@@ -40,21 +38,23 @@ body {
 }
 
 
+.dropdown-menu {
+  background-color: rgba(222,184,135,0.9);
+}
+
 .nav-item .nav-link {
   color: rgba(255,255,255,1);
   text-decoration: none;
 }
-
 
 .active {
   background-color: rgba(82,56,37,0.4);
 }
 
 
-
 .column-left {
   display: inline-block;
-  margin: 0px 30px 30px 30px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/digestivebis.jpg');
@@ -64,7 +64,7 @@ body {
 
 .column-center {
   display: inline-block;
-  margin: 0px 30px 30px 0px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/jammydodg.jpg');
@@ -74,7 +74,7 @@ body {
 
 .column-right {
   display: inline-block;
-  margin: 0px 30px 30px 0px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/custardcre.jpg');
@@ -84,7 +84,7 @@ body {
 
 .column-left1 {
   display: inline-block;
-  margin: 0px 30px 30px 30px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/bourbonbis.jpg');
@@ -94,7 +94,7 @@ body {
 
 .column-center1 {
   display: inline-block;
-  margin: 0px 30px 30px 0px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/jaffabis.jpg');
@@ -104,7 +104,7 @@ body {
 
 .column-right1 {
   display: inline-block;
-  margin: 0px 30px 30px 0px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/gingerbis.jpg');
@@ -114,7 +114,7 @@ body {
 
 .column-left2 {
   display: inline-block;
-  margin: 0px 30px 30px 30px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/wagonbis.jpg');
@@ -124,7 +124,7 @@ body {
 
 .column-center2 {
   display: inline-block;
-  margin: 0px 30px 30px 0px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/waferbis.jpg');
@@ -134,7 +134,7 @@ body {
 
 .column-right2 {
   display: inline-block;
-  margin: 0px 30px 30px 0px;
+  margin: 15px 15px 15px 15px;
   width: 250px;
   height: 250px;
   background: url('../images/richteabis.jpg');

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <title>Contact</title>
+  <title>Ginger Nut</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,12 +11,12 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type"text/css" href="css/contact.css">
+  <link rel="stylesheet" type"text/css" href="css/recipe.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">KAS</a>
+  <a class="navbar-brand">KAS</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,65 +28,66 @@
       <li class="nav-item">
         <a class="nav-link" href="about.html">About Us</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="biscuits.html" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="biscuits.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
           Biscuits
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="digestive.html">Digestive Biscuit</a>
           <a class="dropdown-item" href="jammie.html">Jammie Dodger</a>
           <a class="dropdown-item" href="custard.html">Custard Cream</a>
+          <a class="dropdown-item" href="bourbons.html">Bourbons</a>
+          <a class="dropdown-item" href="jaffa.html">Jaffa Cakes</a>
+          <a class="dropdown-item active" href="ginger.html">Ginger Nut<span class="sr-only">(current)</span></a>
+          <a class="dropdown-item" href="wagon.html">Wagon Wheel</a>
+          <a class="dropdown-item" href="caramel.html">Caramel Wafer</a>
+          <a class="dropdown-item" href="rich.html">Rich Tea</a>
         </div>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
 
-
-
 <body>
 
-  <div class="container">
-    <form name="myForm" action="mailto:amie_murray@aol.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
+<div class="biscuit">
 
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name...">
+  <h1>Ginger Nut</h1>
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+    <h3>Reviews</h3>
+        <p>"Good"</p>
+    <h3>Recipe</h3>
+        <h5>Makes up to 20 servings of nutty goodness</h5>
 
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email" placeholder="Your email address...">
+        <h6>Ingredients:</h6>
+            <ul>
+              <li>50g Butter</li>
+              <li>4 tbsp Golden Syrup</li>
+              <li>50g soft brown sugar</li>
+              <li>175g Self-raising flour</li>
+              <li>1 tsp ground ginger</li>
+            </ul>
 
-      <label for="message">Message</label>
-      <textarea id="subject" name="message" placeholder="Write your message here..." style="height:170px"></textarea>
+        <h6>Instructions:</h6>
+          <ol>
+            <li>Preheat oven to 190C/fan 170C/gas 5. Grease two baking sheets.</li>
 
-      <input type="submit" value="Submit">
-    </form>
-  </div>
+            <li>Melt butter, sugar and golden syrup in a pan until melted and the sugar has dissolved. Leave to cool slightly.</li>
+
+            <li>Sift flour and ground ginger into sugar mixture and stir well.</li>
+
+            <li>Using wetted hands make walnut sized balls of the mixture and arrange well spaced out onto the baking sheets. Flatten slightly then bake in the centre of the oven for 15-20 minutes.</li>
+
+            <li>Remove from the oven and transfer to a waire rack to cool completely.</li>
+
+          </ol>
 
 
+</div>
 
-</form>
-
-<script>
-  function validateForm() {
-    var x = document.forms["myForm"]["firstname"].value;
-    var y = document.forms["myForm"]["email"].value;
-    var x = document.forms["myForm"]["lastname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-    if (y == "") {
-      alert("Email must be filled out");
-      return false;
-    }
-  }
-</script>
 
 <div class="banner">
   <h5 class="bottompg">Contact</h5>
@@ -95,6 +97,7 @@
   <p class="bottompgp2">Phone: 020 7123 4567</p>
   <p class="bottompg">Copyright 2018 © Kas's Biscuit Reviews </p>
 </div>
+
 
 
 </body>
