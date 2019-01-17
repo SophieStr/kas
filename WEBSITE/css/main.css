@@ -1,0 +1,9 @@
+body {
+background-image: url('../images/horse.jpg');
+background-position: center;
+background-size: auto;
+}
+
+h1 {
+color: red;
+}
