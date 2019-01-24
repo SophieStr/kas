@@ -1,79 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130937078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130937078-1');
+</script>
 
   <title>Homepage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" type"text/css" href="css/index.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type"text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-#Navigation Bar
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand">Dulwich Riding School</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand">KAS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">
-            About us
+          <a class="nav-link dropdown-toggle" href="biscuits.html" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">
+            Biscuits
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">History</a>
-            <a class="dropdown-item" href="#">Dulwich Heroes</a>
+            <a class="dropdown-item" href="digestive.html">Digestive Biscuit</a>
+            <a class="dropdown-item" href="jammie.html">Jammie Dodger</a>
+            <a class="dropdown-item" href="custard.html">Custard Cream</a>
+            <a class="dropdown-item" href="bourbons.html">Bourbons</a>
+            <a class="dropdown-item" href="jaffa.html">Jaffa Cakes</a>
+            <a class="dropdown-item" href="ginger.html">Ginger Nut</a>
+            <a class="dropdown-item" href="finger.html">Chocolate Fingers</a>
+            <a class="dropdown-item" href="cookie.html">Chocolate Chip Cookies</a>
+            <a class="dropdown-item" href="party.html">Party Rings</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Price list</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+
+
+
+
+  <div class="image-container">
+    <div class="text">KAS's Biscuit Reviews</div>
   </div>
 
-<body>
+
+
+
+
+  <div class="row">
+    <div class="column1">
+    </div>
+    <div class="column2">
+      <h2>...for times to create.</h2>
+      <p>New memories are made when tasting the chocolaty goodness of an oreo biscuit, or the orange tang to a jaffa cake, especially when we share.</p>
+        <div class="centre">
+          <button type="button"><a class="buttonreview" href="biscuits.html">See Our Reviews</a></button>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column3">
+      <h2>...for times to talk.</h2>
+      <p>When we are sitting around the coffe table having a cup of tea with friends and chatting, why not bring out the pot of biscuits.</p>
+        <div class="centre">
+          <button type="button"><a class="buttonreview" href="biscuits.html">See Our Reviews</a></button>
+        </div>
+    </div>
+    <div class="column4">
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column5">
+    </div>
+    <div class="column6">
+      <h2>...for times to enjoy.</h2>
+      <p>When we are feeling low and in need of a pick me up, biscuits are perfect for dipping and helping make any time a fun time.</p>
+        <div class="centre">
+          <button type="button"><a class="buttonreview" href="biscuits.html">See Our Reviews</a></button>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column7">
+      <h2>Enquire</h2>
+      <p>If you would like to talk to us about your biscuit experiences feel free to email: <br>
+      enquiries@kassbiscuitreviews.com</p>
+    </div>
+    <div class="column8">
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <p class="pcontainer">Instagram</p>
+   <div class="column-center"></div>
+   <div class="column-left"></div>
+   <div class="column-right"></div>
+
+   <div class="column-center1"></div>
+   <div class="column-left1"></div>
+   <div class="column-right1"></div>
+</div>
+
+
+<div class="banner">
+  <h5 class="bottompg">Contact</h5>
+  <a href="https://www.instagram.com/kasbiscuit/" class="fa fa-instagram"></a>
+  <p class="bottompgp">Email: kassbiscuitreviews@gmail.com</p>
+  <p class="bottompgp2">Phone: 020 7123 4567</p>
+  <p class="bottompg">Copyright 2018 © Kas's Biscuit Reviews </p>
+</div>
 
 
 </body>
+
+</html>
