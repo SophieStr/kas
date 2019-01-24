@@ -57,13 +57,13 @@ body {
     background-image: url('../images/biscuits.jpg');
     background-size: cover;
     position: relative;
-    height:500px;
+    height:700px;
   }
 
   .text {
     background-color: rgba(255,255,240,0.8);
     color: black;
-    font-size: 2vw;
+    font-size: 8vw;
     font-weight: bold;
     margin: 0 auto;
     padding: 10px;
@@ -334,6 +334,12 @@ a:hover {
   background: #125688;
   color: white;
 }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
 
 
 
